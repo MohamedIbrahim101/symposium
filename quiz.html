@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * { 
+  margin : 0;
+  padding: 0;
+  box-sizing : border-box;
+  font-familly : "Poppins", sans-serif;
+}
+body {
+  display : flex;
+  align-items : center;
+  justify-content : center;  
+ background-color: #42345d;
+  min-height : 800px;
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  position : relative;
+  width : 1100px;
+  display : flex;
+  align-items : center;
+  justify-content : center;
+  flex-warp : warp;
+  padding : 30px;  
+}
+
+.container .card {
+  position: relative;
+  max-width : 300px;
+  height : 200px;  
+  margin : 30px 10px;
+  padding : 20px 15px;
+  
+  display : flex;
+  flex-direction : column;
+  transition : 0.3s ease-in-out;
+  border-radius : 15px;
+}
+.container .card:hover {
+  height : 520px;    
+}
+
+
+.container .card .image {
+  position : relative;
+  width : 260px;
+  height : 260px;
+  
+  top : -40%;
+  left: 8px;
+  z-index : 1;
+}
+
+.container .card .image img {
+  max-width : 100%;
+  border-radius : 15px;
+}
+
+.container .card .content {
+  position : relative;
+  top : -200px;
+  padding : 10px 15px;
+  color : #ffffff;
+  text-align : center;
+  
+  visibility : hidden;
+  opacity : 0;
+  transition : 0.3s ease-in-out;
+    
+}
+
+.container .card:hover .content {
+   margin-top : 30px;
+   visibility : visible;
+   opacity : 1;
+   transition-delay: 0.2s;
+  
+}
+h3{
+font-weight: bold;
+color: #ffffff;
+}
+h1{
+text-align: center;
+font-weight: bold;
+color: white;
+}
+</style>
+<body>
+  
+    <div class = container>
+      <div class = card>
+        <div class = image>
+          <h1>QUIZ</h1>
+
+          <img href = "#" src ="images/328847-P9ZNJ6-117.jpg">
+        </div>
+        <div class = content>
+          <h3>INSTRUCTION AND PROTOCOL</h3>
+          <p>
+<marquee behaviour="scroll" direction="up" scrollamount="2" height="400px">
+  1.Team Formation: Each team can consist of a maximum of four players. Each player must belong 
+  to the same college, or organization.
+  Question Types: There may be different types of questions such as multiple-choice questions, 
+  true/false questions, short answer questions, fill-in-the-blank questions, audio or video type or a 
+  combination of these.<br>
+  2.Scoring System: Each question may have a different point value. The scoring system 
+  should be explained before the start of the competition. The team with the highest score at 
+  the end of the competition wins.<br>
+  3.Timing: Each team may have a limited amount of time to answer each question. This can vary 
+  depending on the difficulty of the question. The timing for each question should be announced 
+  before the competition starts.<br>
+  4.Moderator: A moderator will read out the questions and provide any necessary clarifications. The 
+  moderator’s decision is final.<br>
+  5.Use of Electronics: The use of electronic devices such as mobile phones, tablets, or laptops is 
+  strictly prohibited. If a team is found using any such device, it may result in disqualification.<br>
+  6..Disputes: Any disputes should be raised immediately with the moderator. The moderator’s 
+  decision is final.<br>
+  7.Tie-Breaker: In the event of a tie, a tie-breaker round may be held to determine the winner.<br>
+  8.Conduct: All participants are expected to conduct themselves in a professional and respectful 
+  manner. Any inappropriate behavior may result in disqualification.<br>
+  9.Prizes: Prizes should be announced before the start of the competition. The prize may be in the 
+  form of certificates, trophies, or any other suitable reward.<br>
+  10.Format: The format of the quiz should be clearly communicated to all participants beforehand. It 
+  could be a buzzer round or hand raise.<br>
+  11.Eligibility: Participants must be enrolled in the respective college or organization to take part in the 
+  competition.<br>
+  12.Number of Rounds: The number of rounds should be announced before the start of the quiz. 
+  Each round may have a different theme or set of topics based on GK questions.<br>
+  13.Elimination: In case of a preliminary round followed by a final round, the number of teams that 
+  qualify for the final round should be announced beforehand.<br>
+  14.Penalties: Any team found cheating, using prohibited devices or engaging in inappropriate 
+  behavior may be disqualified or penalized.<br></marquee>
+
+</p>
+        </div>
+      </div>    
+    </div>
+  </body>
+</html>

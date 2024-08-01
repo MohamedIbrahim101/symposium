@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * { 
+  margin : 0;
+  padding: 0;
+  box-sizing : border-box;
+  font-familly : "Poppins", sans-serif;
+}
+body {
+  display : flex;
+  align-items : center;
+  justify-content : center;  
+ background-color: #42345d;
+  min-height : 800px;
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  position : relative;
+  width : 1100px;
+  display : flex;
+  align-items : center;
+  justify-content : center;
+  flex-warp : warp;
+  padding : 30px;  
+}
+
+.container .card {
+  position: relative;
+  max-width : 300px;
+  height : 200px;  
+  margin : 30px 10px;
+  padding : 20px 15px;
+  
+  display : flex;
+  flex-direction : column;
+  transition : 0.3s ease-in-out;
+  border-radius : 15px;
+}
+.container .card:hover {
+  height : 520px;    
+}
+
+
+.container .card .image {
+  position : relative;
+  width : 260px;
+  height : 260px;
+  
+  top : -40%;
+  left: 8px;
+  z-index : 1;
+}
+
+.container .card .image img {
+  max-width : 100%;
+  border-radius : 15px;
+}
+
+.container .card .content {
+  position : relative;
+  top : -200px;
+  padding : 10px 15px;
+  color : #ffffff;
+  text-align : center;
+  
+  visibility : hidden;
+  opacity : 0;
+  transition : 0.3s ease-in-out;
+    
+}
+
+.container .card:hover .content {
+   margin-top : 30px;
+   visibility : visible;
+   opacity : 1;
+   transition-delay: 0.2s;
+  
+}
+h3{
+font-weight: bold;
+color: #ffffff;
+}
+h1{
+text-align: center;
+font-weight: bold;
+color: white;
+}
+</style>
+<body>
+  
+    <div class = container>
+      <div class = card>
+        <div class = image>
+          <h1>STARTUP</h1>
+
+          <img href = "#" src ="images/person-using-tablet-min.jpg">
+        </div>
+        <div class = content>
+          <h3>INSTRUCTION AND PROTOCOL</h3>
+          <p>
+<marquee behaviour="scroll" direction="up" scrollamount="2">
+  1.The competition is open to all  college students.<br>
+  2.The participants must come with their college ID card.<br>
+  3.Team size should not exceed 2 members.<br>
+  4.All the participants will receive a confirmation through mail or mobile from us.<br>
+  5.All the participants will receive a participation certificate.<br>
+  6.For the further details contact student’s co-ordinators.<br>
+  </marquee>
+
+</p>
+        </div>
+      </div>    
+    </div>
+  </body>
+</html>
